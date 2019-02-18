@@ -17,7 +17,7 @@
 .BurgerMenuLine{
     width: 25px;
     height: 3px;
-    background-color: #ffffff;
+    background-color: $color__background-menu;
     margin-top: 5px;
     border-radius: 10px;
     transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
@@ -40,18 +40,18 @@
 
 .menu.BurgerMenuAnim .line1{
     transform: translateY(.5em) rotate(45deg);
-    background-color: #000000;
+    background-color: $color__background-main;
 }
 
 .menu.BurgerMenuAnim .line2{
     opacity: 0;
-    background-color: #000000;
+    background-color: $color__background-main;
 }
 
 .menu.BurgerMenuAnim .line3{
     transform: translateY(-.5em) rotate(-45deg);
     top: 50%;
-    background-color: #000000;
+    background-color: $color__background-main;
 }
 
 .checkBurger{
@@ -63,7 +63,7 @@
 /****************SIDE MENU************************/
 
 .MenuContainer{
-    background-color: #ffffff;
+    background-color: $color__background-menu;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -96,12 +96,12 @@
         margin: 1em 1em 1em 1em;
         text-decoration: none;
         cursor: pointer;
-        color: #000000;
+        color: $color__text-menu;
         opacity: 0;
         transition: opacity
     }
     i:hover{
-        color: #161616;
+        color: $color__hover-text;
     }
 
 }
@@ -161,7 +161,7 @@
     margin-right: auto;
     a{
         text-decoration: none;
-        color: #161616;
+        color: $color__hover-text;
         opacity: 0;
         transition: all 0.2s ease-in-out;
         text-decoration: none;
@@ -178,7 +178,7 @@
     width: 0%;
     height: 5px;
     content: '';
-    background: #000000;
+    background: $color__background-main;
     transition: all 0.3s;
     margin-top: 1em;
 }
