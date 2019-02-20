@@ -813,6 +813,21 @@ main {
 
 /***********************************************/
 /******************PROJETS*********************/
+.rectangle {
+  background-color: red;
+  width: 100%;
+}
+
+.projetItem:nth-child(1) {
+  border: 5px solid green;
+}
+
+#projet1:nth-child(1) {
+  color: blue;
+  -ms-grid-column: 1;
+  grid-column: 1fr;
+}
+
 #projets {
   color: #ffffff;
 }
@@ -1000,4 +1015,8 @@ main {
     margin: 0 auto;
   }
 }
+
+/*--------------------------------------------------------------
+# modules stylesheets
+--------------------------------------------------------------*/
 /*# sourceMappingURL=style.css.map */

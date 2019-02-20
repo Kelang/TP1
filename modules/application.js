@@ -1,27 +1,31 @@
-import {descriptionProjet1} from './descriptionProjet';
-import {descriptionProjet2} from './descriptionProjet';
-import {descriptionProjet3} from './descriptionProjet';
+import {descriptionProjet1} from './descriptionProjet.js'
+import {descriptionProjet2} from './descriptionProjet.js'
+import {descriptionProjet3} from './descriptionProjet.js'
+import {AnimDesc} from './AnimDesc.js'
 
 
+let elmDescription = document.getElementById("projet1")
 
-/*éléments de la page qui contiendront les descriptions des projets */
-let descProj1 = document.getElementById('#descriptionProjet1');
-let descProj2 = document.getElementById('#descriptionProjet2');
-let descProj3 = document.getElementById('#descriptionProjet3');
+elmDescription.addEventListener("click", integrerDescription);
 
 
-function ajoutDescription() {
-    
+//let description = new AnimDesc(descriptionProjet1, elmDescription, integrerDescription)
+
+/*
+let elmDescription2 = document.getElementById("projet2")
+let description2 = new AnimDesc(descriptionProjet2, elmDescription, integrerDescription)
+
+
+let elmDescription3 = document.getElementById("projet3")
+let description3 = new AnimDesc(descriptionProjet3, elmDescription, integrerDescription)
+
+*/
+
+
+function integrerDescription() {
+    console.log ('integration');
+    let description = new AnimDesc(descriptionProjet1, elmDescription, integrerDescription)
 }
-
-
-
-
-
-
-
-
-
 
 
 
