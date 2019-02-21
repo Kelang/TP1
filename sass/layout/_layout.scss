@@ -69,18 +69,21 @@ main{
 /******************PROJETS*********************/
 
 .rectangle {
-    background-color: red;
-    width: 100%;
+   
+  }
+
+  .descriptionProjet{
+    grid-column-start: 1;
+    grid-column-end: 4;
   }
 
 
 .projetItem:nth-child(1){
-    border: 5px solid green;
+    
 }
 
 #projet1:nth-child(1){
-    color: blue;
-    grid-column: 1fr
+
 }
 
 
@@ -248,6 +251,32 @@ main{
             margin: 0 auto;
         }
     }
+
+    .projetsGalery{
+        display: none;
+    }
+
+    #presentation{
+        font-size: 1em;
+    }
+
+    #projets{
+        font-size: .5em;
+    }
+
+    main{
+        margin-left: 5em;
+    }
+
+    .gridPresentation{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        height: auto;
+        margin-top: 15em;
+    }
     
-    
+    #portfolio{
+        margin: 5em 1em 5em -1em;
+    }
     }

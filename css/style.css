@@ -813,19 +813,10 @@ main {
 
 /***********************************************/
 /******************PROJETS*********************/
-.rectangle {
-  background-color: red;
-  width: 100%;
-}
-
-.projetItem:nth-child(1) {
-  border: 5px solid green;
-}
-
-#projet1:nth-child(1) {
-  color: blue;
+.descriptionProjet {
   -ms-grid-column: 1;
-  grid-column: 1fr;
+      grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 #projets {
@@ -1013,6 +1004,32 @@ main {
   .MenuContainer .navContainer {
     padding-left: 0em;
     margin: 0 auto;
+  }
+  .projetsGalery {
+    display: none;
+  }
+  #presentation {
+    font-size: 1em;
+  }
+  #projets {
+    font-size: .5em;
+  }
+  main {
+    margin-left: 5em;
+  }
+  .gridPresentation {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    margin-top: 15em;
+  }
+  #portfolio {
+    margin: 5em 1em 5em -1em;
   }
 }
 

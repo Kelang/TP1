@@ -6,10 +6,10 @@ import {AnimDesc} from './AnimDesc.js'
 
 let elmDescription = document.getElementById("projet1")
 
-elmDescription.addEventListener("click", integrerDescription);
+elmDescription.addEventListener("click", description);
 
 
-//let description = new AnimDesc(descriptionProjet1, elmDescription, integrerDescription)
+let description = new AnimDesc(descriptionProjet1, elmDescription, integrerDescription)
 
 /*
 let elmDescription2 = document.getElementById("projet2")
@@ -22,10 +22,6 @@ let description3 = new AnimDesc(descriptionProjet3, elmDescription, integrerDesc
 */
 
 
-function integrerDescription() {
-    console.log ('integration');
-    let description = new AnimDesc(descriptionProjet1, elmDescription, integrerDescription)
-}
 
 
 

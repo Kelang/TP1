@@ -23,6 +23,7 @@
 
 });
 
+
 //Animation de la presentation des projets 
 
 $('#projet1').hover(function(){
