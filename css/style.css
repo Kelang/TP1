@@ -817,14 +817,33 @@ main {
   -ms-grid-column: 1;
       grid-column-start: 1;
   grid-column-end: 4;
+  opacity: 0;
+  -webkit-animation: descriptionEntrer .5s  ease-in-out  forwards;
+          animation: descriptionEntrer .5s  ease-in-out  forwards;
 }
 
-#projets {
+@-webkit-keyframes descriptionEntrer {
+  0% {
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes descriptionEntrer {
+  0% {
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h2 {
+  font-size: 4em;
   color: #ffffff;
 }
 
-#projets h2 {
-  font-size: 4em;
+#projets {
   color: #ffffff;
 }
 
@@ -1030,6 +1049,9 @@ main {
   }
   #portfolio {
     margin: 5em 1em 5em -1em;
+  }
+  #projets .projetLayout {
+    display: block;
   }
 }
 

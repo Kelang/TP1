@@ -68,33 +68,38 @@ main{
 
 /******************PROJETS*********************/
 
-.rectangle {
-   
-  }
+
 
   .descriptionProjet{
     grid-column-start: 1;
     grid-column-end: 4;
+    opacity: 0;
+    animation: descriptionEntrer .5s  ease-in-out  forwards;
+  }
+
+  @keyframes descriptionEntrer{
+
+    0%{
+        
+    }
+    100%{
+        
+        opacity: 1;
+    }
   }
 
 
-.projetItem:nth-child(1){
-    
-}
 
-#projet1:nth-child(1){
-
-}
-
-
-
-#projets{
-    color: $color__text;
-    h2{
+h2{
     font-size: 4em;
     color: $color__text;
     
     }   
+
+
+#projets{
+    color: $color__text;
+   
 
   
 
@@ -134,6 +139,8 @@ main{
             color: $color__text-projets;
         }
     }
+
+    
 
     .projetInfo{
         display: grid;
@@ -279,4 +286,9 @@ main{
     #portfolio{
         margin: 5em 1em 5em -1em;
     }
+
+    #projets .projetLayout {
+        display: block;
+    }
+
     }
