@@ -75,6 +75,7 @@ main{
     grid-column-end: 4;
     opacity: 0;
     animation: descriptionEntrer .5s  ease-in-out  forwards;
+    padding: 0 1em 1em 1em;
   }
 
   @keyframes descriptionEntrer{
@@ -125,6 +126,7 @@ h2{
             color: $color__text;
             font-size: 2em;
             align-self: center;
+            padding: 0 0 0 .5em;
         }
         
         .projetImage{

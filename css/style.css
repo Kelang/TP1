@@ -820,6 +820,7 @@ main {
   opacity: 0;
   -webkit-animation: descriptionEntrer .5s  ease-in-out  forwards;
           animation: descriptionEntrer .5s  ease-in-out  forwards;
+  padding: 0 1em 1em 1em;
 }
 
 @-webkit-keyframes descriptionEntrer {
@@ -880,6 +881,7 @@ h2 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  padding: 0 0 0 .5em;
 }
 
 #projets .projetItem .projetImage {
@@ -1054,8 +1056,4 @@ h2 {
     display: block;
   }
 }
-
-/*--------------------------------------------------------------
-# modules stylesheets
---------------------------------------------------------------*/
 /*# sourceMappingURL=style.css.map */

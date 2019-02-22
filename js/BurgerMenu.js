@@ -32,10 +32,6 @@ $('#projet1').hover(function(){
    // $('#media1').show();
 });
 
-$('#projet1').onClick(function(){
-
-
-});   
 
 $('#projet2').hover(function(){
 
