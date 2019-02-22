@@ -13,8 +13,6 @@ elmDescription.addEventListener("mouseleave", function(evt) {
     console.log("OUT");
 }, false);
 
-//let description = new AnimDesc(descriptionProjet1, elmDescription, integrerDescription)
-
 
 let elmDescription2 = document.getElementById("projet2")
 

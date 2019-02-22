@@ -45,10 +45,5 @@ export class AnimDesc{
     }
 
 
-    detruitElement(evt){
-        Util.detruireTousLesNoeud(this.elmParent, this.elmParent)
-        this.fonction()   
-    }
-
 
 }
