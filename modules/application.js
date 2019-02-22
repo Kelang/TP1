@@ -14,7 +14,7 @@ elmDescription.addEventListener("mouseleave", function(evt) {
 }, false);
 
 function integrerDescription() {
-    console.log ('integration');
+    
     let description = new AnimDesc(descriptionProjet1, elmDescription, integrerDescription)
 }
 
@@ -29,7 +29,7 @@ elmDescription2.addEventListener("mouseleave", function(evt) {
 }, false);
 
 function integrerDescription2() {
-    console.log ('integration');
+    
     let description2 = new AnimDesc(descriptionProjet2, elmDescription2, integrerDescription)
 }
 
@@ -46,7 +46,7 @@ elmDescription3.addEventListener("mouseleave", function(evt) {
 }, false);
 
 function integrerDescription3() {
-    console.log ('integration');
+    
     let description3 = new AnimDesc(descriptionProjet3, elmDescription3, integrerDescription)
 }
 

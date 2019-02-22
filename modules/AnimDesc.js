@@ -15,7 +15,7 @@ export class AnimDesc{
 
     integrerDescription() {
         
-        console.log("descriptions projet");
+        //console.log("descriptions projet");
 
         let elmConteneur = this.creerElement(this.elmParent,
             'section',
@@ -34,7 +34,7 @@ export class AnimDesc{
 
 
     creerElement(elmParent, balise, contenu, classCSS) {
-        console.log(balise)
+        //console.log(balise)
         let noeud = document.createElement(balise)
         if (contenu != '') {
             noeud.innerHTML = contenu

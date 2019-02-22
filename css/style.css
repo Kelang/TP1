@@ -989,6 +989,11 @@ h2 {
   }
 }
 
+footer {
+  color: #ffffff;
+  text-align: center;
+}
+
 /********************SCROLL BAR*********************/
 /* width */
 ::-webkit-scrollbar {
@@ -1012,6 +1017,9 @@ h2 {
 
 /**********MEDIA QUERIES********/
 @media screen and (max-width: 768px) {
+  h2 {
+    font-size: 2em;
+  }
   .MenuContainer {
     display: -webkit-box;
     display: -ms-flexbox;
