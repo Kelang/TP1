@@ -52,7 +52,7 @@ elmDescription3.addEventListener("mouseleave", function(evt) {
 function integrerDescription3() {
     if( $('.descriptionProjet').length ==0){
     let description3 = new AnimDesc(descriptionProjet3, elmDescription3, integrerDescription)
-    }
+    } 
 }
 
 
