@@ -15,7 +15,10 @@ elmDescription.addEventListener("mouseleave", function(evt) {
 
 function integrerDescription() {
     
-    let description = new AnimDesc(descriptionProjet1, elmDescription, integrerDescription)
+    if( $('.descriptionProjet').length ==0){
+        let description = new AnimDesc(descriptionProjet1, elmDescription, integrerDescription)
+    }
+   
 }
 
 /********Projet2********* */
@@ -29,8 +32,9 @@ elmDescription2.addEventListener("mouseleave", function(evt) {
 }, false);
 
 function integrerDescription2() {
-    
+    if( $('.descriptionProjet').length ==0){
     let description2 = new AnimDesc(descriptionProjet2, elmDescription2, integrerDescription)
+    }
 }
 
 /********Projet3********* */
@@ -46,8 +50,9 @@ elmDescription3.addEventListener("mouseleave", function(evt) {
 }, false);
 
 function integrerDescription3() {
-    
+    if( $('.descriptionProjet').length ==0){
     let description3 = new AnimDesc(descriptionProjet3, elmDescription3, integrerDescription)
+    }
 }
 
 
